@@ -15,7 +15,9 @@ NumPy(Numerical Python)는 파이썬에서 수치 계산을 위한 핵심 라이
 # 🚀 설치 방법
 NumPy는 pip를 사용하여 간단하게 설치할 수 있습니다.
 
+```
 pip install numpy
+```
 
 # 🧱 NumPy의 핵심: ndarray
 NumPy의 가장 중요한 데이터 구조는 바로 ndarray (N-dimensional array) 예요. 이건 숫자들이 규칙적으로 쌓여있는 상자라고 생각하면 돼요!
