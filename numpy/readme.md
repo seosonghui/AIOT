@@ -21,7 +21,8 @@ pip install numpy
 # 💻 기본 사용법
 NumPy를 사용하기 위한 기본적인 예시입니다.
 
-1. 배열 생성
+## 1. 배열 생성
+```
 import numpy as np
 
 # 1차원 배열 생성
@@ -50,9 +51,10 @@ print("\n범위 배열:", range_arr)
 # 무작위 값 배열
 random_arr = np.random.rand(2, 2) # 0과 1 사이의 무작위 값
 print("\n무작위 배열:\n", random_arr)
+```
 
-
-2. 배열 연산
+## 2. 배열 연산
+```
 import numpy as np
 
 arr1 = np.array([10, 20, 30, 40])
@@ -74,9 +76,10 @@ print("스칼라 곱셈:", scalar_mul)
 greater_than_20 = arr1 > 20
 print("20보다 큰 요소:", greater_than_20)
 print("20보다 큰 값만:", arr1[greater_than_20])
+```
 
-
-3. 인덱싱 및 슬라이싱
+## 3. 인덱싱 및 슬라이싱
+```
 import numpy as np
 
 arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
@@ -93,7 +96,7 @@ print("arr[:, 1]:", arr[:, 1]) # 두 번째 열 전체
 
 # 부분 배열 슬라이싱
 print("arr[0:2, 1:3]:\n", arr[0:2, 1:3]) # 0,1행과 1,2열
+```
 
-
-📚 더 알아보기
+# 📚 더 알아보기
 NumPy는 파이썬에서 수치 계산을 위한 필수 도구이며, 이 문서에서 다룬 내용은 기본적인 시작점일 뿐입니다. 더 깊이 있는 학습을 위해서는 NumPy 공식 문서를 참고하시거나, 데이터 과학 및 머신러닝 관련 학습 자료를 찾아보시는 것을 추천합니다
